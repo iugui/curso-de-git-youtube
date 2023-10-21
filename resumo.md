@@ -25,7 +25,7 @@ Github -> Serve para hospedar repositórios.
 | git add    | Manda um arquivo para o stage          | git add site.html          | git add . = Adiciona todos os arquivos da pasta |
 | git commit | Manda um arquivo do stage para o .git  | git commit -m "mensagem""" |                                                 |
 | git status | Retorna o status atual do repositório |                            |                                                 |
-|            |                                        |                            |                                                 |
+| git log    | Mostra o histórico de alterações    |                            |                                                 |
 
 Pasta (Projeto) -> Stage -> .git
 
