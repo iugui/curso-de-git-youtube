@@ -6,7 +6,7 @@ Git -> É o versionamento de código. Ou seja, criamos várias versões de um pr
 
 Repositório ->
 
-Branch ->
+Branch -> Cria uma nova linha do tempo
 
 Merge -> Junta todas as modificações. Útil quando temos vários programadores e queremos juntar as modificações de todos.
 
@@ -19,15 +19,16 @@ Github -> Serve para hospedar repositórios.
 
 ### 3 - Comandos
 
-| COMANDO             | O que faz                              | Exemplo                    | Observações                                   |
-| ------------------- | -------------------------------------- | -------------------------- | ----------------------------------------------- |
-| git init            | Cria um repositório                   |                            | Cria uma pasta .git oculta                      |
-| git add             | Manda um arquivo para o stage          | git add site.html          | git add . = Adiciona todos os arquivos da pasta |
-| git commit          | Manda um arquivo do stage para o .git  | git commit -m "mensagem""" |                                                 |
-| git status          | Retorna o status atual do repositório |                            |                                                 |
-| git log             | Mostra o histórico de alterações    |                            |                                                 |
-| git checkout        | Volta para uma versão antiga          | git checkout ee644a        | Só precisa dos 6 primeiros digitos             |
-| git checkout master | Volta para a última versão           |                            |                                                 |
+| COMANDO             | O que faz                              | Exemplo                       | Observações                                   |
+| ------------------- | -------------------------------------- | ----------------------------- | ----------------------------------------------- |
+| git init            | Cria um repositório                   |                               | Cria uma pasta .git oculta                      |
+| git add             | Manda um arquivo para o stage          | git add site.html             | git add . = Adiciona todos os arquivos da pasta |
+| git commit          | Manda um arquivo do stage para o .git  | git commit -m "mensagem"""    |                                                 |
+| git status          | Retorna o status atual do repositório |                               |                                                 |
+| git log             | Mostra o histórico de alterações    |                               |                                                 |
+| git checkout        | Volta para uma versão antiga          | git checkout ee644a           | Só precisa dos 6 primeiros digitos             |
+| git checkout master | Volta para a última versão           |                               |                                                 |
+| git branch          | Cria um novo ramo                      | git branch pagina-de-servicos |                                                 |
 
 Pasta (Projeto) -> Stage -> .git
 
